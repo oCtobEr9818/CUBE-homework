@@ -1,0 +1,4 @@
+/** Can you explain about the type of never and what is the differ with void? **/
+
+void 表示函式不回傳任何值。
+never 表示函式永遠不會有返回（會 throw 或進入無限迴圈）。

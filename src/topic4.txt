@@ -1,0 +1,10 @@
+/** What is virtual DOM and what purpose does it aim to solve?? **/
+
+Virtual DOM（虛擬 DOM）是瀏覽器畫面結構的 JavaScript 模型。
+
+想像畫面上的按鈕、文字、圖片都是一塊積木，Virtual DOM 就是這些積木的「草圖」。
+當資料改變時，React 不會馬上動真正的畫面，而是先在 Virtual DOM 上做比較，看有哪些積木需要變動，再針對那些差異去更新畫面。
+
+Virtual DOM 可以解決的問題是：
+1. 不會每次資料改變就整個重畫，減少不必要的更新
+2. 使用者看到畫面更新更快更順

@@ -1,0 +1,5 @@
+/** What is difference between framework base website and normal website (none framework) **/
+
+framework: 框架提供元件化、狀態管理、路由等結構，且更具可讀性和可維護性、Virtual DOM 提高網站性能。
+
+none framework: 開發者需要手動處理所有功能和結構，隨著功能增加，程式碼可能會很亂，較難維護。
